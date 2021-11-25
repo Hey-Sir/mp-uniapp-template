@@ -24,7 +24,7 @@
 				<u-cell-item icon="setting" title="设置"></u-cell-item>
 			</u-cell-group>
 		</view>
-		<u-button type="primary" @click="loginOut" v-if="$u.utils.isLogin()">退出登录123</u-button>
+		<u-button type="primary" @click="loginOut" v-if="$u.utils.isLogin()">1出登录</u-button>
 		<u-button type="primary" open-type="contact" @contact="handleContact">联系客服</u-button>
 		<u-button type="primary" open-type="getPhoneNumber" @getphonenumber="getPhoneNumber">绑定手机号</u-button>
 	</view>
